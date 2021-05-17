@@ -13,6 +13,7 @@ function createDynamicSnowFlakes(){
     }, 3000)
 }
 
+setInterval(createDynamicSnowFlakes, 100)
 
 
 // ======== Work in progress ======== 
@@ -72,4 +73,3 @@ function displayClock() {
 }
 
 // displayClock();
-setInterval(createDynamicSnowFlakes, 100)
